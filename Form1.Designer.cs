@@ -111,9 +111,10 @@ namespace practicaRec
             this.btnAgregar.Location = new System.Drawing.Point(397, 17);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(96, 35);
-            this.btnAgregar.TabIndex = 8;
+            this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -124,6 +125,7 @@ namespace practicaRec
             this.btnModificar.TabIndex = 7;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -131,9 +133,10 @@ namespace practicaRec
             this.btnEliminar.Location = new System.Drawing.Point(397, 166);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(96, 32);
-            this.btnEliminar.TabIndex = 6;
+            this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnBuscar
             // 
@@ -141,9 +144,10 @@ namespace practicaRec
             this.btnBuscar.Location = new System.Drawing.Point(397, 65);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(96, 34);
-            this.btnBuscar.TabIndex = 1;
+            this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // cboBarrio
             // 
@@ -153,7 +157,7 @@ namespace practicaRec
             this.cboBarrio.Location = new System.Drawing.Point(149, 333);
             this.cboBarrio.Name = "cboBarrio";
             this.cboBarrio.Size = new System.Drawing.Size(177, 29);
-            this.cboBarrio.TabIndex = 5;
+            this.cboBarrio.TabIndex = 4;
             // 
             // dtpNació
             // 
@@ -162,7 +166,7 @@ namespace practicaRec
             this.dtpNació.Location = new System.Drawing.Point(149, 286);
             this.dtpNació.Name = "dtpNació";
             this.dtpNació.Size = new System.Drawing.Size(177, 29);
-            this.dtpNació.TabIndex = 4;
+            this.dtpNació.TabIndex = 3;
             // 
             // label4
             // 
@@ -243,7 +247,7 @@ namespace practicaRec
             this.txtIdPersona.Location = new System.Drawing.Point(149, 17);
             this.txtIdPersona.Name = "txtIdPersona";
             this.txtIdPersona.Size = new System.Drawing.Size(177, 29);
-            this.txtIdPersona.TabIndex = 1;
+            this.txtIdPersona.TabIndex = 0;
             // 
             // label2
             // 
